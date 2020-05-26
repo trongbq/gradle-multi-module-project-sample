@@ -1,0 +1,9 @@
+
+rootProject.name = 'common-spring-boot-project'
+
+include 'web'
+include 'cms'
+include 'batch'
+include 'common:model'
+include 'common:mail'
+include 'common:payment'
