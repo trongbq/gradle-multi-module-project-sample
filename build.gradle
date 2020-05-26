@@ -2,4 +2,8 @@ subprojects {
     // Using plugins for only sub-projects
     // Due to the issues of Gradle, we can not use `plugins {}` block inside `subprojects` for now
     apply plugin: 'java'
+
+    repositories {
+        mavenCentral()
+    }
 }
