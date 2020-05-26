@@ -1,5 +1,5 @@
 
-rootProject.name = 'common-spring-boot-project'
+rootProject.name = 'gradle-multi-module-project-sample'
 
 include 'web'
 include 'cms'
