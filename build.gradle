@@ -3,7 +3,16 @@ subprojects {
     // Due to the issues of Gradle, we can not use `plugins {}` block inside `subprojects` for now
     apply plugin: 'java'
 
+    java {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+    
     repositories {
         mavenCentral()
+    }
+
+    dependencies {
+
     }
 }
